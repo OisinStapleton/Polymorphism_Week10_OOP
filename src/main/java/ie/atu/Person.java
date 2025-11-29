@@ -12,10 +12,11 @@ private String phoneNumber;
         this.phoneNumber = "";
     }
 
-    public Person(String phoneNumber, String address, String name) {
-        this.phoneNumber = phoneNumber;
-        this.address = address;
+    public Person(String name, String address, String phoneNumber ) {
         this.name = name;
+        this.address = address;
+        this.phoneNumber = phoneNumber;
+
     }
 
     public String getName() {
