@@ -9,6 +9,9 @@ public class Main {
         Customer customer = new Customer("Oisín","Oranmore","0891234567", 66, true );
         System.out.println(customer.toString());
 
+        PreferredCustomer loyalCustomer = new PreferredCustomer("Alan", "Salthill", "0860987654", 55, true, 400, 0.10);
+        System.out.println(loyalCustomer.toString());
+
 
     }
 }

@@ -47,6 +47,6 @@ private String phoneNumber;
     public String toString() {
         return "name='" + name + '\'' +
                 ", address='" + address + '\'' +
-                ", phoneNumber='" + phoneNumber;
+                ", phoneNumber=" + phoneNumber;
     }
 }
